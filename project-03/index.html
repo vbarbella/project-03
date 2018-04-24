@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Boss Battle</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/heart.png">
+</head>
+<body>
+<div class="main">
+
+
+
+<h1>Player 1 - READY...</h1>
+
+
+<h2>Starting HP: 3000</h2>
+<img src="img/hp.png" class="hp">
+<p>Attack the bosses with your abilities, but don't let your health drop too low... Keep your HP up with your healing powers!</p>
+<h1>...GO!</h1>
+<hr>
+
+<img src="img/gameboy.png" class="gb">
+
+<p><span class="basic-attack"></span></p>
+
+<input type="button" onClick="basicAttack()" value="Basic Attack" play=>
+<input type="button" onClick="healMe()" value="Heal" play=>
+<br><br>
+<input type="button" onClick="bigHeal()" value="Big Heal" play=>
+<input type="button" onClick="ultimateAbility()" value="Ultimate" play=>
+<br><br>
+
+<h1><span class="boss"></span></h1>
+<input type="button" onClick="history.go(0)" value="Back the the surface" play=>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
